@@ -10,3 +10,5 @@
 /Makefile.user
 /test
 /test.exe
+debug/
+release/
