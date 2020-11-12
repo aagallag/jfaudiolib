@@ -22,7 +22,7 @@
  * libSDL output driver for MultiVoc
  */
 
-#ifdef __APPLE__
+#if defined __APPLE__ || defined __SWITCH__
 # if HAVE_SDL == 2
 #  include <SDL2/SDL.h>
 # else
